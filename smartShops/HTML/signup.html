@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
 </head>
-<body>
+
+<body style="background-color: rgb(240, 243, 247); ">
     <div class="logo">
-        <img src="../images/Smartshop-04.png" width="15%" height="15%" alt="smartshop logo">
+        <img src="../images/Smartshop-04.png" alt="smartshop logo" style="margin-left: 120px; width:350px; height:300px;">
     </div>
     <div class="signup-body">
-        <form method="post">
+        <form method="post" style="text-align: center; 
+        background-color: rgb(245, 220, 228); padding: auto;
+        height:600px; width: 550px;">
             <div>
-                <input type="text" placeholder="Full name" id="fullName">
+                <input type="text" placeholder="Full name" id="fullName"
+                    style="width: 450px;height: 50px;border-radius: 5px; margin-top: 50px;font: 1.5em sans-serif;">
             </div>
             <div>
-                <input type="text" placeholder="Email" id="email">
+                <input type="text" placeholder="Email" id="email"
+                    style="width: 450px;height: 50px;border-radius: 5px; margin-top: 50px;font: 1.5em sans-serif;">
             </div>
             <div>
-                <input type="password" placeholder="Password" id="password">
+                <input type="password" placeholder="Password" id="password"
+                    style="width: 450px;height: 50px;border-radius: 5px; margin-top: 50px;font: 1.5em sans-serif;">
             </div>
             <div>
-                <input type="confirmPass" placeholder="Confirm password" id="confirmpass">
+                <input type="confirmPass" placeholder="Confirm password" id="confirmpass"
+                    style="width: 450px;height: 50px;border-radius: 5px; margin-top: 50px;font: 1.5em sans-serif;">
+            </div> <br> <br>
+            <button type="submit" class="btn btn-success" style="border-radius: 5px;background-color: rgb(123, 30, 210);
+                 height: 40px;width: 300px;font: 1.5em sans-serif;">Sign Up</button>
+
+            <div>
+                <p style="color: darkslateblue;"> <em> Already have an account? </em><a href="login.html">Log in</a></p>
             </div>
-            <button type="submit" class="btn btn-success">Sign Up</button>
         </form>
     </div>
     <div>
         <p>By signing up you accept the <a href="#"> Term of Service</a> and <a href="#">Privacy Policy</a></p>
     </div>
-    <div>
-        <p>Already have an account? <a href="login.html">Log in</a></p>
-    </div>
+    
 </body>
+
 </html>
